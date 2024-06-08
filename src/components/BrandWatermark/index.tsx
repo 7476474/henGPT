@@ -28,10 +28,7 @@ const BrandWatermark = memo<Omit<FlexboxProps, 'children'>>(({ style, ...rest })
       style={{ color: theme.colorTextDescription, fontSize: 12, ...style }}
       {...rest}
     >
-      <strong>前往 chenHen 社区</strong>
-      <Link className={styles.logoLink} href={'https://chenhen.rf.gd'} target={'_blank'}>
-        <Logo size={20} type={'text'} />
-      </Link>
+      <span>前往 <strong><a className={styles.logoLink} href="https://chenhen.rf.gd" target="_blank" rel="noopener noreferrer">chenHen社区</a></strong></span>
     </Flexbox>
   );
 });
