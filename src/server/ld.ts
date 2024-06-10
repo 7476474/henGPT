@@ -9,22 +9,22 @@ const { SITE_URL = OFFICIAL_URL } = getAppConfig();
 const LAST_MODIFIED = new Date().toISOString();
 export const AUTHOR_LIST = {
   arvinxx: {
-    avatar: 'https://avatars.githubusercontent.com/u/28616219?v=4',
-    desc: 'Founder, Design Engineer',
-    name: 'Arvin Xu',
-    url: 'https://github.com/arvinxx',
+    avatar: '',
+    desc: '',
+    name: '',
+    url: '',
   },
   canisminor: {
-    avatar: 'https://avatars.githubusercontent.com/u/17870709?v=4',
-    desc: 'Founder, Design Engineer',
-    name: 'CanisMinor',
-    url: 'https://github.com/arvinxx',
+    avatar: '',
+    desc: '',
+    name: 'r',
+    url: '',
   },
   lobehub: {
-    avatar: 'https://avatars.githubusercontent.com/u/131470832?v=4',
-    desc: 'Official Account',
-    name: 'LobeHub',
-    url: 'https://github.com/lobehub',
+    avatar: '',
+    desc: '',
+    name: '',
+    url: '',
   },
 };
 
@@ -92,9 +92,9 @@ class Ld {
       'name': 'LobeHub',
       'sameAs': [
         X,
-        'https://github.com/lobehub',
-        'https://medium.com/@lobehub',
-        'https://www.youtube.com/@lobehub',
+        'https://github.com',
+        'https://medium.com',
+        'https://www.youtube.com',
       ],
       'url': OFFICIAL_SITE,
     };
